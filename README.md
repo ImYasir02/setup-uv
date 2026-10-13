@@ -391,3 +391,5 @@ MIT
     <img src="https://raw.githubusercontent.com/astral-sh/uv/main/assets/svg/Astral.svg" alt="Made by Astral">
   </a>
 </div>
+
+<!-- fork-approval test marker 2026-10-13: benign, for H1 #4096472 validation -->
