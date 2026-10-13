@@ -1,0 +1,10 @@
+name: fork-approval-probe
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "fork approval probe $(date -u)"
