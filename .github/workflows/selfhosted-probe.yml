@@ -1,0 +1,11 @@
+name: "test-selfhosted-probe"
+
+on:
+  pull_request:
+
+jobs:
+  test-tilde-expansion-tool-dirs:
+    runs-on: selfhosted-ubuntu-arm64
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./
